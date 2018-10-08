@@ -1925,7 +1925,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4274b8;
+  background: #916cd4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2336,6 +2336,19 @@ pre .javascript .function {
 .theme-next .this_ua.browser.QQBrowser {
   background-color: #78ace9 !important;
   border-color: #4cae4c !important;
+}
+#gitment-display-button {
+  display: inline-block;
+  padding: 0 15px;
+  color: #0a9caf;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid #0a9caf;
+  border-radius: 4px;
+}
+#gitment-display-button:hover {
+  color: #fff;
+  background: #0a9caf;
 }
 .post-spread {
   margin-top: 20px;
@@ -2873,9 +2886,9 @@ pre .javascript .function {
   position: relative;
 }
 .site-meta {
-  padding: 20px 0;
+  padding: 90px 0;
   color: #fff;
-  background: #222;
+  background: #6a5acd;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
@@ -2888,11 +2901,13 @@ pre .javascript .function {
   }
 }
 .brand {
-  padding: 0;
+  padding: 20px 0;
   background: none;
 }
 .brand:hover {
-  color: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
 }
 .site-subtitle {
   margin: 10px 10px 0;
@@ -2921,7 +2936,7 @@ pre .javascript .function {
 .menu .menu-item a {
   position: relative;
   box-sizing: border-box;
-  padding: 5px 20px;
+  padding: 10px 70px;
   text-align: left;
   line-height: inherit;
   transition-property: background-color;
@@ -2931,7 +2946,7 @@ pre .javascript .function {
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
-  background: #f9f9f9;
+  background: #ccf;
   border-bottom-color: #fff;
 }
 .menu .menu-item br {
@@ -2967,7 +2982,7 @@ pre .javascript .function {
   }
 }
 .use-motion .sidebar .motion-element {
-  opacity: 1;
+  opacity: 30;
 }
 .sidebar {
   margin-left: -100%;
@@ -2986,7 +3001,7 @@ pre .javascript .function {
 }
 .sidebar-inner.affix {
   position: fixed;
-  top: 12px;
+  top: 50px;
 }
 .sidebar-inner.affix-bottom {
   position: absolute;
@@ -3006,10 +3021,10 @@ pre .javascript .function {
   color: #555;
 }
 .sidebar a:hover {
-  color: #222;
+  color: $003366;
 }
 .site-state-item {
-  padding: 0 10px;
+  padding: 0 20px;
 }
 .links-of-author-item a:before {
   display: none;
@@ -3111,4 +3126,38 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+.site-brand-wrapper {
+  position: relative;
+}
+.site-meta {
+  padding: 90px 0;
+  color: #fff;
+  background: #6a5acd;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .site-meta {
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+  }
+}
+@media (max-width: 767px) {
+  .site-meta {
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+  }
+}
+.brand {
+  padding: 20px 0;
+  background: none;
+}
+.brand:hover {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.site-subtitle {
+  margin: 10px 10px 0;
+  font-weight: initial;
+}
+.site-search form {
+  display: none;
 }
