@@ -724,8 +724,8 @@ pre .javascript .function {
 @media (min-width: 992px) {
   .full-image.full-image.full-image.full-image {
     max-width: none;
-    width: 118%;
-    margin: 0 -9%;
+    width: 130%;
+    margin: 0 0%;
   }
 }
 .blockquote-center,
@@ -1246,7 +1246,7 @@ pre .javascript .function {
 .site-subtitle {
   margin-top: 10px;
   font-size: 13px;
-  color: #ddd;
+  color: #ccf;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1855,7 +1855,7 @@ pre .javascript .function {
   margin-top: 0;
   text-align: center;
   font-size: 13px;
-  color: #999;
+  color: #ccf;
 }
 .site-state {
   overflow: hidden;
@@ -1925,7 +1925,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #916cd4;
+  background: #ffb916;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1963,7 +1963,7 @@ pre .javascript .function {
   color: #555;
 }
 .sidebar-nav li:hover {
-  color: #fc6423;
+  color: #555;
 }
 .page-post-detail .sidebar-nav-toc {
   padding: 0 5px;
@@ -1972,11 +1972,11 @@ pre .javascript .function {
   margin-left: 10px;
 }
 .sidebar-nav .sidebar-nav-active {
-  color: #fc6423;
-  border-bottom-color: #fc6423;
+  color: #ccf;
+  border-bottom-color: #ccf;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #fc6423;
+  color: #ccf;
 }
 .sidebar-panel {
   display: none;
@@ -2036,14 +2036,14 @@ pre .javascript .function {
   display: block;
 }
 .post-toc .nav .active > a {
-  color: #fc6423;
-  border-bottom-color: #fc6423;
+  color: #ccf;
+  border-bottom-color: #ccf;
 }
 .post-toc .nav .active-current > a {
-  color: #fc6423;
+  color: #ccf;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #fc6423;
+  color: #ccf;
 }
 .sidebar-active #sidebar-dimmer {
   opacity: 0.7;
@@ -2725,7 +2725,7 @@ pre .javascript .function {
   }
 }
 .page-post-detail .sidebar-toggle-line {
-  background: #fc6423;
+  background: #ccf;
 }
 .page-post-detail .comments {
   overflow: hidden;
