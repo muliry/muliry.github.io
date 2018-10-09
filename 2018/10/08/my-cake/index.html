@@ -116,18 +116,20 @@
 
 
 
-<meta name="description" content="或许是戒碳水的结果（欢迎大家以某种纯粹主义姿态对『戒』字进行挑剔，当然这对我不会起任何作用），我变得对甜味十分敏感，如今大部分蔬菜，青椒，（烤熟或炒熟的）胡萝卜，菠菜，地蒲，洋葱……都会让我觉得很甜，甚至太甜，而饼干则多半甜得无法接受了。 ​​​​">
+<meta name="description" content="ContextIt started with a 2 hour hackathon on a car ride back from a road trip with my brother. Our goal was to create something shippable that solves a real but approachable problem. We ended up creat">
 <meta name="keywords" content="design selflearning">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My Cake">
 <meta property="og:url" content="https://muliry.github.io/2018/10/08/my-cake/index.html">
 <meta property="og:site_name" content="Hellooo!">
-<meta property="og:description" content="或许是戒碳水的结果（欢迎大家以某种纯粹主义姿态对『戒』字进行挑剔，当然这对我不会起任何作用），我变得对甜味十分敏感，如今大部分蔬菜，青椒，（烤熟或炒熟的）胡萝卜，菠菜，地蒲，洋葱……都会让我觉得很甜，甚至太甜，而饼干则多半甜得无法接受了。 ​​​​">
+<meta property="og:description" content="ContextIt started with a 2 hour hackathon on a car ride back from a road trip with my brother. Our goal was to create something shippable that solves a real but approachable problem. We ended up creat">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-07T22:21:09.654Z">
+<meta property="og:image" content="https://muliry.github.io/desktop/adrien-bruneau-687598-unsplash.jpg">
+<meta property="og:updated_time" content="2018-10-09T14:07:20.682Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My Cake">
-<meta name="twitter:description" content="或许是戒碳水的结果（欢迎大家以某种纯粹主义姿态对『戒』字进行挑剔，当然这对我不会起任何作用），我变得对甜味十分敏感，如今大部分蔬菜，青椒，（烤熟或炒熟的）胡萝卜，菠菜，地蒲，洋葱……都会让我觉得很甜，甚至太甜，而饼干则多半甜得无法接受了。 ​​​​">
+<meta name="twitter:description" content="ContextIt started with a 2 hour hackathon on a car ride back from a road trip with my brother. Our goal was to create something shippable that solves a real but approachable problem. We ended up creat">
+<meta name="twitter:image" content="https://muliry.github.io/desktop/adrien-bruneau-687598-unsplash.jpg">
 
 
 
@@ -357,7 +359,47 @@
       
 
       
-        <p>或许是戒碳水的结果（欢迎大家以某种纯粹主义姿态对『戒』字进行挑剔，当然这对我不会起任何作用），我变得对甜味十分敏感，如今大部分蔬菜，青椒，（烤熟或炒熟的）胡萝卜，菠菜，地蒲，洋葱……都会让我觉得很甜，甚至太甜，而饼干则多半甜得无法接受了。 ​​​​</p>
+        <p>Context<br>It started with a 2 hour hackathon on a car ride back from a road trip with my brother. Our goal was to create something shippable that solves a real but approachable problem. We ended up creating the barebones for InternChat, a place for people to get 1-on-1, personal career advice. </p>
+<p>4 weekend hackathons later, I soft launched InternChat and got over 600 pageviews and had over 80 conversations.<br><img src="/desktop/adrien-bruneau-687598-unsplash.jpg" alt="avatar"><br>Problem Space<br>The issue we wanted to address was the struggle of diving into a new profession. Taking UX Design for example, there are countless articles, blog posts, and forums that pop up when you search “how to get a ux design internship” but most of it is generalized and overwhelming. </p>
+<p>On the flip side, there is a community of students who have gone through the process of building their career and want to start sharing that knowledge and giving back.</p>
+<p>Solution<br>InternChat seeks to address this. Let’s walk through the user flow:</p>
+<p>#1: Landing Page<br>When you come to the website, you’re immediately prompted with a CTA to ask whatever question is on your mind.</p>
+<p>The landing page was geared to make it as frictionless as possible to get into the product and encourages immediate action.</p>
+<p>At the bottom of the page, we have a list of Starter Questions to get people thinking about what types of questions they’re wondering about.</p>
+<p>This featurewas absolutely crucial in increasing conversion rates because 95% of our started conversations came from these starter questions. We made it extremely easy for people to get started using our product. </p>
+<p>But this actually became an issue becuase it made it really easy for people to start false conversations when they were just curious and didn’t actually need any advice. So from the mentor end we didn’t know whether people actually had a question or were just poking around which is why we added “Just looking around! :)” as an option.</p>
+<p>#2: OnBoarding<br>Once a person asks a question, they’re brought to this quick onboarding page asking about profession and graduating year. This served two purposes: </p>
+<ol>
+<li>Provide a bit of context for the mentor who’s going to talk to this random stranger. </li>
+<li>Gather a tiny bit of user data to understand who’s engaging with our application.</li>
+</ol>
+<p>We know how annoying it is when you have to go through a long account creation process so we wanted to make this as minimal as possible.</p>
+<p>#3: Messaging UI<br>After onboarding, you’re immediate brought into this messaging UI and the program starts “searching for a mentor” but on the mentor side, we just see a new conversation to be claimed.</p>
+<p>We wanted the stalling message to make it seem like some sort of algorithmic matching process is happening in the background.</p>
+<p>This where the biggest drop off is in conversion. It’s imperative that the conversation gets claimed within the first 10 seconds. Because of this I literally had my mentor dashboard open 24/7 for a few weeks. I’ll talk later on about how that was such an unsustainable solution for the mentor.</p>
+<p>Once the user is matched, they are presented with information about their mentor including their profession, past work experience, and areas of advice the mentor feels most comfortable talking about.</p>
+<p>#4: End Flow<br>Once the conversation has come to a close, the user or the mentor can end the conversation and are brought to this ending flow. Again the aim is to quickly gather metrics on user satisfacton.</p>
+<p>Notice how the wave icon can both be used as a greeting as well as a goodbye ;)</p>
+<p>Mentors<br>For initial launch, I recruited 9 design friends to be mentors. As mentors, they were “online” during the first few days of the launch and checked for new conversations via the Mentor Dashboard.</p>
+<p>Built by my brother, we prioritized only chats relevant to the mentor as well as added sound notifcations when new conversations were created.</p>
+<p>A big struggle mentors faced was the strain of always having to be “online” since users were epxecting to start a conversation at any time of the day. Like a call center, we needed to be heavily staffed in order to cover for all hours of availability. To help mitigage this we had to shut down the site for certain hours of the day.</p>
+<p>The Results<br>On February 18th, 2018 we did a soft launch of the product, only posting in the HH Design and HH: What Are You Working On Facebook groups. From that post we had an overwhelming response. These are the stats as of April 21st, 2018:</p>
+<p>2.6K<br>Page Loads<br>2.1K<br>Messages Sent<br>617<br>Unique Visitors<br>80<br>Completed Conversations<br>Profession Breakdown</p>
+<p>“UX Designer” was the expected majority but “Other” was a surprising second.</p>
+<p>Satisfaction Chart</p>
+<p>Of the conversations that were completed, we were able to deliver high quality experiences.</p>
+<p>Conversion Chart</p>
+<p>As expected, the biggest drop off is in how many users actually start a converstaion but we a had strong conversion of users who got through Onboarding which shows our minimal design for that page worked.</p>
+<p>User Testimonials<br>“I’ve always wanted to learn design but didn’t really know where to start. Thanks for all the resources!”</p>
+<p>“Hey thanks a lot Cedric for all the feedback, I definitely feel one step closer to being at a 100% for my interview”</p>
+<p>“Wow jut wanted to say this is well built. I work as a designer on android messages at google and definitely had to check this out :)”</p>
+<p>“How can I help with your initiative? I think it’s really cool and it’s super helpful for other design students who are applying for internships this season.”</p>
+<p>Next Steps<br>Since launch, traffic has slowed down and development has been put on hold since I’ve had to try not to fail my classes. But I have had lots of time to process the outcome of this project so far and I know there is a lot of potential here. </p>
+<p>My brother and I see this expanding far beyond just design interns. At its core it is a form of facilitating 1-on-1 advice and if we can work on designing the perfect way to facilitate that type of interaction, we can apply it to any profession/form of advice. </p>
+<p>One big issue I’ve found with InterChat is that its value is inherently tied to the internship seasons. At the time of writing this (April 21st, 2018) the internship hiring season is pretty much over so there is little to no use for this product. So I want to rebrand the product to focus more broadly on overall career advice and recruit people from other professions.</p>
+<p>When we launched, I used my TV screen as a second monitor so I could keep track of more conversations at once. It felt like a control center :)</p>
+<p>I’ve got big plans for InternChat. Stay tuned! :)</p>
+<p>Thanks for scrolling!</p>
 
       
     </div>
